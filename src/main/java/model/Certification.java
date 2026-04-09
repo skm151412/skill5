@@ -5,8 +5,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Certification {
 
-    private int id = 101;
+    private int id = 102;
     private String name = "AWS Cloud Practitioner";
+    
     private String dateOfCompletion = "15-Jan-2026";
 
     public int getId() {
